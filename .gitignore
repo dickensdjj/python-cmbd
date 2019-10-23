@@ -1,0 +1,6 @@
+# Virtual Environment Library should be kept out of source control
+/venv/*
+
+# I don't know what is it.
+.idea/*
+
