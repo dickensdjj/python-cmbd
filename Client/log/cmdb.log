@@ -1,0 +1,4 @@
+Send Time: 2019-10-25 16:39:57 	 Server Address: http://192.168.0.106:8000/assets/report 	 Response: Send Failed  Error:  HTTP Error 404: Not Found 
+Send Time: 2019-10-25 16:46:51 	 Server Address: http://192.168.0.106:8000/assets/report 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-25 16:49:46 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 403: Forbidden 
+Send Time: 2019-10-25 16:53:36 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Received Data Successfully! 

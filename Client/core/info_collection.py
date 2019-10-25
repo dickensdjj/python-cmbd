@@ -4,7 +4,7 @@ import platform
 
 class InfoCollection(object):
 
-    def collection(self):
+    def collect(self):
         # Collect Platform Info
         # 首先判断当前平台，根据平台的不同，执行不同的方法
         try:
@@ -22,7 +22,12 @@ class InfoCollection(object):
 
     @staticmethod
     def darwin():
-        from plugin.collect_darwin_info import collect
+        from plugins.collect_darwin_info import collect
+        return collect()
+
+    @staticmethod
+    def windows():
+        from plugins.collect_window_info import collect
         return collect()
 
     @staticmethod

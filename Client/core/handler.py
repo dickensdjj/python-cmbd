@@ -63,7 +63,7 @@ class ArgvHandler(object):
         info = info_collection.InfoCollection()
         asset_data = info.collect()
         # Pack info in dict and convert to json format
-        data = {"asset_data": json.dump(asset_data)}
+        data = {"asset_data": json.dumps(asset_data)}
         url = "http://%s:%s%s" % (settings.Params['server'], settings.Params['port'], settings.Params['url'])
         print('Sending data to : [%s] ...... ' % url)
         try:
@@ -73,6 +73,8 @@ class ArgvHandler(object):
             response = urllib.request.urlopen(url=url, data=data_encode, timeout=settings.Params['request_timeout'])
             # ???
             print("\033[31;1mSend Complete! \033[0m ")
+            message = response.read().decode()
+            print("返回结果：%s" % message)
         except Exception as e:
             # ???
             message = 'Send Failed' + "  Error:  {}".format(e)
