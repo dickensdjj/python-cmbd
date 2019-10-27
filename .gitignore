@@ -8,3 +8,5 @@
 # I don't know what is it.
 .idea/*
 
+# Avoid DB
+.sqlite3
