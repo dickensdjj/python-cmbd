@@ -10,3 +10,6 @@
 
 # Avoid DB
 *.sqlite3
+
+# Avoid Log
+*.log
