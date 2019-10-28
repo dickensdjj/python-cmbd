@@ -66,6 +66,7 @@ class Asset(models.Model):
         return '<%s> %s' % (self.get_asset_type_display(), self.name)
 
     # ???
+    # These Meta class is used for admin/ ??? At least the first verbose name is shown as the db table name in admin/
     class Meta:
         verbose_name = 'Asset Main Table'
         verbose_name_plural = 'Asset Main Table'

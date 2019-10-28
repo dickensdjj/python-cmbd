@@ -71,7 +71,8 @@ class ArgvHandler(object):
             # encode data and convert to bytes
             data_encode = urllib.parse.urlencode(data).encode()
             response = urllib.request.urlopen(url=url, data=data_encode, timeout=settings.Params['request_timeout'])
-            # ???
+            # \033[31;1m is color code which make the 'SEND COMPLETE' red
+            # Similar as \033[0m
             print("\033[31;1mSend Complete! \033[0m ")
             message = response.read().decode()
             print("返回结果：%s" % message)

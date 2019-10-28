@@ -2,3 +2,25 @@ Send Time: 2019-10-25 16:39:57 	 Server Address: http://192.168.0.106:8000/asset
 Send Time: 2019-10-25 16:46:51 	 Server Address: http://192.168.0.106:8000/assets/report 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
 Send Time: 2019-10-25 16:49:46 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 403: Forbidden 
 Send Time: 2019-10-25 16:53:36 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Received Data Successfully! 
+Send Time: 2019-10-28 11:45:40 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  <urlopen error [Errno 61] Connection refused> 
+Send Time: 2019-10-28 11:46:41 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Received Data Successfully! 
+Send Time: 2019-10-28 14:07:12 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:09:24 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:10:16 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:12:50 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:13:47 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:15:33 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:19:05 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:24:13 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:27:03 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:27:57 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:33:44 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:40:00 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:43:30 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:45:54 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:46:49 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:56:51 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  <urlopen error [Errno 61] Connection refused> 
+Send Time: 2019-10-28 14:57:55 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Send Failed  Error:  HTTP Error 500: Internal Server Error 
+Send Time: 2019-10-28 14:58:33 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Asset has been added or updated to new asset approval zone. 
+Send Time: 2019-10-28 15:01:19 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Asset has been added or updated to new asset approval zone. 
+Send Time: 2019-10-28 15:31:02 	 Server Address: http://192.168.0.106:8000/assets/report/ 	 Response: Asset has been added or updated to new asset approval zone. 

@@ -9,7 +9,7 @@ def collect():
         "os_distribution": "Ubuntu",
         "os_release": "Ubuntu 16.04.3 LTS",
         "os_type": "Linux",
-        "cpu_count": "2",
+        "cpu_count": "3",
         "cpu_core_count": "4",
         "cpu_model": "Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz",
         "ram": [],
