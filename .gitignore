@@ -1,6 +1,15 @@
 # Virtual Environment Library should be kept out of source control
 /venv/*
 
+# Get rid of explanation result of python in __pycached__
+*.pyc
+*.pyo
+
 # I don't know what is it.
 .idea/*
 
+# Avoid DB
+*.sqlite3
+
+# Avoid Log
+*.log

@@ -25,7 +25,7 @@ SECRET_KEY = '=e9qcyl^v3y3dt75rex-g#g77-!1g-%2&+sk90)1pdjtq00$27'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'assets',
+    # Basic Debugger for Django
+    'django_pdb'
 ]
 
 MIDDLEWARE = [
@@ -47,6 +50,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # Basic Debugger Middleware for Django
+    'django_pdb.middleware.PdbMiddleware',
 ]
 
 ROOT_URLCONF = 'CMDB.urls'
